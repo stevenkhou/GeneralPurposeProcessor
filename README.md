@@ -10,14 +10,14 @@ The processing unit consists of:
 - Latches served as storage units
 - ALU core executes arithmetic and logical operations on inputs and generates outputs
 
-### First Modification:
+### First ALU Modification:
 Modified ALU to correctly execute appropriate boolean operations between 8-bit A and B values when given microcode.
 Operations included combinations of AND, OR, NOT, NAND, NOR, and XOR. Results displayed on seven segment display and verified with waveform simulation on Quartus Simulator.
 <br />
 Block Diagram Schematic:
 ![image](https://github.com/stevenkhou/GeneralPurposeProcessor/assets/131317174/9e5b194f-155a-4dbf-bb37-826f3dada788)
 
-### Second Modification:
+### Second ALU Modification:
 Block Diagram Schematic carries over, however specific sets of boolean functions are assigned to inputs A and B to align them with designated microcode. Results displayed on seven segment display and verified with waveform simulation on Quartus Simulator.
 
 This design implementation correctly operates and functions to address:
@@ -31,7 +31,7 @@ This design implementation correctly operates and functions to address:
 8. Producing the result of XNOR-ing inputs A and B
 9. Rotating input B to the left by three bits
 
-### Third Modification: 
+### Third ALU Modification: 
 Modified the ALU to correctly determine if inputs were even or odd for more than 9 clock cycles, then displayed result on the seven segment display.
 <br />
 Block Diagram Schematic:
