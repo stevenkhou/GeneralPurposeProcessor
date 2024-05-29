@@ -7,7 +7,7 @@ FPGA based ALU design and implementation in a VHDL environment.
 The processing unit consists of: 
 - Control unit for fetching instructions and generating control signals (4:16 decoder and Moore-Type FSM)
 - Bus manages access to data values throughout the processing unit
-- Registers serve as temporary storage units
+- Latches served as storage units
 - ALU core executes arithmetic and logical operations on inputs and generates outputs
 
 ### First Modification:
